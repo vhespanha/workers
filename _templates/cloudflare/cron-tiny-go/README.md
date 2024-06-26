@@ -1,4 +1,4 @@
-# cron-job-template-go
+# cron-tiny-go
 
 - A template for starting a Cloudflare Worker project with a cron job using Go.
 - This template uses the [workers](https://github.com/syumai/workers) package to schedule and run cron jobs.
@@ -6,8 +6,8 @@
 ## Notice
 
 - A free plan Cloudflare Workers only accepts ~1MB sized workers.
-  - Go Wasm binaries easily exceed this limit, so *you'll need to use a paid plan of Cloudflare Workers* (which accepts ~5MB sized workers).
-  - There's also a Tinygo version of this that can be found [here](https://github.com/syumai/workers/tree/main/_templates/cloudflare/cron-tiny-go).
+  - Tiny-go Wasm binaries probably won't exceed this limit, so you might not need to use a paid plan of Cloudflare Workers.
+  - There's also a Go version of this that can be found [here](https://github.com/syumai/workers/tree/main/_templates/cloudflare/cron-go).
 
 ## Usage
 
